@@ -1,0 +1,34 @@
+#subscription-form {
+  max-width: 100%;
+
+}
+
+
+.submit-main {
+  margin:1em;
+  @media (min-width: $breakpoint-medium) {
+    margin: 4em;
+  }
+
+.form-group {
+  @media (min-width: $breakpoint-medium) {
+    margin : 2em;
+  }
+}
+  @media (min-width: $breakpoint-large) {
+    margin: 5em;
+  }
+}
+.submit-title {
+  background-color: #178F32;
+  border-radius: 1px;
+  text-align: center;
+}
+#submit-button {
+  background-color: #178F32;
+  border : none;
+  @media (min-width: $breakpoint-medium) {
+    margin: 3em;
+
+  }
+}

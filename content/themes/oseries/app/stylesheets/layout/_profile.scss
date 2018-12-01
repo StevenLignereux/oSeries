@@ -1,0 +1,105 @@
+.account-container {
+  display: flex;
+}
+
+.account-section {
+
+margin: auto;
+    display: flex;
+    padding-top: 2em;
+}
+
+div .col-md-4 {
+  margin-top: 2em;
+}
+.profile-container {
+  font-size: 0.8em;
+}
+.profile-cards {
+  margin-bottom: 0.5em;
+}
+
+.profile-text h2 {
+  margin-top: 1em;
+}
+
+#description-content {
+    @media(min-width: $breakpoint-medium){
+
+      width : 200%;
+
+    }
+}
+div #favoris {
+  display: none;
+  @media(min-width: $breakpoint-medium){
+
+    display: inline-flex;
+    margin-bottom: 1em;
+
+  }
+}
+
+
+.btn .btn-primary {
+  text-align: center;
+
+}
+.profile-buttons {
+  display: none;
+  @media(min-width: $breakpoint-medium) {
+    display: inline-table;
+  }
+}
+#description-button, #textarea-description, #description-input {
+  display: none;
+  @media(min-width: $breakpoint-large) {
+    display: inherit;
+  }
+}
+#small-description-placeholder {
+  height: 5em;
+}
+
+#email-button {
+  margin-top: 1em;
+}
+
+#calendar {
+  display: none;
+      @media(min-width: $breakpoint-medium) {
+        display: initial;
+            }
+}
+#diffusion-card {
+  margin-bottom: 1em;
+
+}
+#small-description {
+      @media(min-width: $breakpoint-large) {
+        display: none;}
+}
+#social-icons {
+    @media(min-width: $breakpoint-medium){
+
+      display: none;
+
+    }
+}
+#social-links {
+    @media(min-width: $breakpoint-medium){
+
+      display: flex;
+      justify-content: space-between;
+
+    }
+    & a {
+    @media(min-width: $breakpoint-medium){
+
+      margin-left: 2em;
+    }
+    }
+}
+.span12 {
+  display: inline-block;
+}

@@ -1,0 +1,24 @@
+//rentré en css additionnel dans le bo
+
+.um-left input {
+  background-color: #178F32 !important;
+  color: #FDFFFE !important;
+  font-weight: bold !important;
+}
+#menu-menu-1 {
+    display: flex;
+    float: right;
+    justify-content: flex-end;
+}
+.menu-item-type-post_type {
+      display: inline;
+    background-color: #FDFFFE;
+    border-radius: 5px;
+    padding: 0.5em;
+    margin:1em;
+    font-weight: bold;
+    & a {
+      color: #178F32;
+
+    }
+}

@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>oSéries</title>
+    <link rel="stylesheet" href="/css/app.css">
+</head>
+
+<body>
+
+
+    <header>
+
+        <div id="account">
+            <i class="fa fa-user-circle" aria-hidden="true"></i>
+            <a href="#">Mon compte</a>
+        </div>
+
+        <div id="name">
+            <a href="#">o'series</a>
+        </div>
+
+
+        <form id="search" class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+
+    </header>
+
+
+
+    <!-- ======================Début de la page de profile====================== -->
+
+    <div class="container-fluid profile-container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="text-center profile-text">
+                    <img class="img-fluid" src="http://via.placeholder.com/350x250" alt="avatar">
+                    <div id="description-content">
+
+
+                        <h2>Enter your name here !</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem voluptas saepe provident, cupiditate reiciendis? Inventore similique tempora, accusamus repellendus error voluptates dolorum quod, sapiente reprehenderit vel ipsam doloremque dicta
+                            blanditiis?
+                        </p>
+                </div>
+
+                    <div id="social-icons" class="social-nav link">
+                        <a href=""><i class="fa fa-facebook"></i></a>
+                        <a href=""><i class="fa fa-twitter"></i></a>
+                        <a href=""><i class="fa fa-instagram"></i></a>
+                    </div>
+                    <div id="social-links">
+
+                        <a href="#" class="btn btn-success btn-xs profile-buttons">Facebook</a>
+                        <a href="#" class="btn btn-success btn-xs profile-buttons">Twitter</a>
+                        <a href="#" class="btn btn-success btn-xs profile-buttons">Instagram</a>
+                        <a href="#" class="btn btn-success btn-xs">Website</a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="input-group md-3 profile-cards">
+                    <input type="text" class="form-control" placeholder="Modifier votre pseudo" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <button class="btn btn-success" type="button">Modifier</button>
+                    </div>
+                </div>
+                <div class="input-group md-3 profile-cards">
+                    <input type="text" class="form-control" placeholder="Modifier votre email" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <button class="btn btn-success" type="button">Modifier</button>
+                    </div>
+                </div>
+                <div id="small-description" class="input-group md-3 profile-cards">
+                    <input id="small-description-placeholder" type="text" class="form-control" placeholder="Modifier votre description" aria-label="Recipient's description" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <button class="btn btn-success" type="button">Modifier</button>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span id="description-input" class="input-group-text">Entrer votre description</span>
+                    </div>
+                    <textarea id="textarea-description" class="form-control" aria-label="With textarea"></textarea>
+                    <div class="input-group-append">
+                        <button id="description-button" class="btn btn-success" type="button">Modifier</button>
+                    </div>
+                </div>
+
+            </div>
+            <!-- ============Gestion du système de messagerie représentation visuelle à changer un plugin wp -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h5>Mes messages</h5>
+                    </div>
+                    <div class="card text-center">
+                        <div class="card-header">
+                            <ul class="nav nav-tabs card-header-tabs">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#">Reçu</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Envoyés</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled" href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">De toto</li>
+                                <li class="list-group-item">A propos</li>
+                                <li class="list-group-item">Vestibulum at eros</li>
+                            </ul>
+                            <a href="#" id="email-button" class="btn btn-success">Envoyer</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- ============Gestion du système de messagerie=============== -->
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- ================Deuxième partie de la page ============================= -->
+
+    <div id="page-bottom" class="container-fluid profile-container">
+        <div class="row">
+
+<!-- ======================Liste des favoris=============================== -->
+
+            <div id="favoris" class="col-md-4">
+                <div class="card text-center">
+                    <div class="card-header">
+                        <h5>Liste des séries favorites</h5>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Breaking bad</li>
+                            <li class="list-group-item">Game of thrones</li>
+                            <li class="list-group-item">Arrow</li>
+                        </ul>
+                        <a href="#" class="btn btn-success">ajouter</a>
+                        <!-- Ajout d'un formulaire ne js/ajax pour ajouter des séries -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- ======================Liste des favoris=============================== -->
+
+
+
+
+
+            <!-- ======================Calendrier à gérer dynamiquement================================= -->
+            <div id="calendar" class="col-md-4">
+                    <div class="span12">
+                        <table class="table-condensed table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th colspan="7">
+                                        <span class="btn-group">
+                                        <a class="btn"><i class="icon-chevron-left"></i></a>
+                                        <a class="btn active">February 2012</a>
+                                        <a class="btn"><i class="icon-chevron-right"></i></a>
+                                    </span>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>Su</th>
+                                    <th>Mo</th>
+                                    <th>Tu</th>
+                                    <th>We</th>
+                                    <th>Th</th>
+                                    <th>Fr</th>
+                                    <th>Sa</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="muted">29</td>
+                                    <td class="muted">30</td>
+                                    <td class="muted">31</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>3</td>
+                                    <td>4</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>6</td>
+                                    <td>7</td>
+                                    <td>8</td>
+                                    <td>9</td>
+                                    <td>10</td>
+                                    <td>11</td>
+                                </tr>
+                                <tr>
+                                    <td>12</td>
+                                    <td>13</td>
+                                    <td>14</td>
+                                    <td>15</td>
+                                    <td>16</td>
+                                    <td>17</td>
+                                    <td>18</td>
+                                </tr>
+                                <tr>
+                                    <td>19</td>
+                                    <td class="btn-success"><strong>20</strong></td>
+                                    <td>21</td>
+                                    <td>22</td>
+                                    <td>23</td>
+                                    <td>24</td>
+                                    <td>25</td>
+                                </tr>
+                                <tr>
+                                    <td>26</td>
+                                    <td>27</td>
+                                    <td>28</td>
+                                    <td>29</td>
+                                    <td class="muted">1</td>
+                                    <td class="muted">2</td>
+                                    <td class="muted">3</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- ======================Fin calendrier================================= -->
+
+                <!-- =================Jour de diffusion=========================================== -->
+                <div class="col-md-4">
+                    <div id="diffusion-card" class="card" >
+                        <div class="card-header">
+                            <h5>Jour de diffusion</h5>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Breaking bad</li>
+                            <li class="list-group-item">Game of thrones</li>
+                            <li class="list-group-item">Arrow</li>
+                        </ul>
+                    </div>
+                </div>
+                <!--======== Fin jour de diffusion =================================-->
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- =======fin de la deuxième partie de la page============================ -->
+
+    <footer>
+        <container id="footer-left">
+            <h4>o'series</h4>
+            <div class="social-nav link">
+                <a href=""><i class="fa fa-twitter"></i></a>
+                <a href=""><i class="fa fa-facebook"></i></a>
+            </div>
+
+        </container>
+
+        <container id="footer-right">
+            <a id="contact" href="#">Contacter le support</a>
+            <a href="#">Conditions générales d'utilisation</a>
+        </container>
+
+    </footer>
+
+
+
+
+
+
+    <script src="js/vendor.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

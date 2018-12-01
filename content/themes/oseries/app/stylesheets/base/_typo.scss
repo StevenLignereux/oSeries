@@ -1,0 +1,21 @@
+html {
+  font-size: 12px;
+
+  @media (min-width: 700px) {
+    font-size: 14px;
+  }
+
+  @media (min-width: 1024px) {
+    font-size: 18px;
+  }
+}
+
+body {
+  font-family: 'PT-Sans', Arial, sans-serif;
+  // color: $color-text;
+}
+
+h1, h2, h3 {
+  font-family: 'Arial', serif;
+  text-transform: uppercase;
+}

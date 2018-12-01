@@ -1,0 +1,47 @@
+footer {
+  display : flex;
+  flex-direction: column;
+  text-align:center;
+  background-color: 	#178F32;
+  color: #FDFFFE;
+}
+
+footer a {
+  color : #FDFFFE;
+}
+
+footer h4 {
+
+  margin-top: 8px;
+  border : 3px solid;
+  font-family: "consolas", monospace;
+  letter-spacing: -2px;
+  color: #FDFFFE;
+  font-size: 3em;
+  border-color: #FDFFFE;
+  background-color: #FDFFFE;
+  color: #178F32;
+}
+
+.logo {
+  color: #FDFFFE;
+  font-size: 3em;
+}
+
+#footer-right {
+  padding-top: 10px;
+}
+
+#support {
+  display: block;
+}
+
+#contact {
+  display: block;
+}
+.link {
+  font-size: 2em;
+& a {
+  margin: 0.4em;
+}
+}

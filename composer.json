@@ -1,0 +1,33 @@
+{
+    "name": "mint/oseries",
+    "authors": [
+        {
+            "name": "Steven Lignereux",
+            "email": "steven.lignereux@hotmail.fr"
+        }
+    ],
+    "repositories": [{
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    }],
+    "require": {
+      "johnpbloch/wordpress": "4.*",
+      "wpackagist-theme/twentyseventeen": "*",
+      "wpackagist-plugin/advanced-custom-fields": "*",
+      "wpackagist-plugin/advanced-custom-fields-font-awesome": "*",
+      "wpackagist-plugin/ultimate-member": "*",
+      "wpackagist-plugin/favorites": "*",
+      "wpackagist-plugin/front-end-pm": "*",
+      "wpackagist-plugin/onet-regenerate-thumbnails": "*",
+      "wpackagist-plugin/wpdiscuz": "*"
+
+
+    },
+    "extra": {
+      "wordpress-install-dir": "wp",
+      "installer-paths": {
+        "content/plugins/{$name}/": ["type:wordpress-plugin"],
+        "content/themes/{$name}/": ["type:wordpress-theme"]
+      }
+    }
+}

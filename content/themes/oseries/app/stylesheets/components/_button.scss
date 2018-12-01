@@ -1,0 +1,65 @@
+.btn-secondary {
+  background-color: 	#178F32 !important;
+  text-align: center !important;
+  padding: 0.5em !important;
+  font-weight: bold;
+  border : none !important ;
+  border-radius: 5px;
+}
+.dropdown-show {
+  margin : 1em !important;
+text-align: center !important;
+
+}
+.dropdown-container {
+
+@media (min-width: $breakpoint-large) {
+  display : none;
+}
+@media (min-width: $breakpoint-medium) {
+  margin: 2em 0 2em 0;
+  display: flex;
+  justify-content: space-around;
+}
+}
+
+#dropdownMenuYear, #dropdownMenuCountry {
+  display: none;
+  @media (min-width: $breakpoint-medium) {
+    display : inline-block;
+      }
+    @media (min-width: $breakpoint-large) {
+      display : none;
+        }
+}
+#dropdownMenuLink {
+    @media (min-width: $breakpoint-large) {
+      display : none;
+        }
+}
+.inscription {
+  @media(min-width: $breakpoint-large) {
+    font-size: 1em;
+    margin: 0;
+  }
+}
+
+.type-button {
+  background-color: 	#178F32;
+  border-radius: 10px;
+  color: white;
+  padding: 0.1em 1em 0.1em 1em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  height:50%;
+}
+.menu {
+  display : flex;
+  justify-content: space-between;
+}
+.simplefavorite-button {
+  border-radius: 5px;
+    color: #FFFDFF;
+    background-color: #856852;
+    font-weight: bold;
+}
